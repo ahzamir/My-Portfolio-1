@@ -1,17 +1,165 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
 .logo{
-    height: 90px;
-    width: 200px;
-    margin-left: 10px;
+    height: 100px;
+    width: 210px;
+    margin-left: 20px;
 }
 
 .victor{
     height: 60px;
     width: 80px;
     margin-top: 20px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
-.header{
+.tool1{
     display: flex;
-    justify-content: space-between;
+    position: absolute;
+    height: 100px;
+    width: 110px;
+    margin-top: 128.64px;
+    margin-bottom: 556.53px;
+    margin-right: 351.4px;
+    top: 161.47px;
+}
+
+.tool2{
+    display: flex;
+    position: absolute;
+    width: 110px;
+    height: 85px;
+    margin-top: 95px;
+    margin-bottom: 570.07px;
+    margin-right: 366.27px;
+    top: 141.49px;
+}
+
+.tool3{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 127.18px;
+    top: 151.59px;
+    margin-top: 148px;
+    margin-bottom: 549.14px;
+    margin-left: 127.18px;
+    margin-right: 224.68px;
+}
+
+.tool4{
+    display: flex;
+    position: absolute;
+    width: 50px;
+    height: 51px;
+    left: 132px;
+    top: 170px;
+    margin-top: 170.81px;
+    margin-bottom: 547.39px;
+    margin-left: 125px;
+    margin-right: 235.39px;
+}
+
+.tool5{
+    display: flex;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 400px;
+    top: 110px;
+    margin-top: 110;
+    margin-bottom: 593;
+    margin-left: 214px;
+    margin-right: 146;
+}
+
+.tool6{
+    display: flex;
+    position: absolute;
+    width: 195.58px;
+    height: 122.02px;
+    left: 400px;
+    top: 180.79px;
+    margin-top: 180px;
+    margin-bottom: 533.14;
+    margin-left: 410px;
+    margin-right: 12.79;
+}
+
+.tool7{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    left: 450px;
+    top: 200px;
+    margin-top: 200px;
+    margin-bottom: 460.75px;
+    margin-right: 53px;
+    margin-left: 429px;
+}
+
+.tool8{
+    display: flex;
+    position: absolute;
+    width: 60px;
+    height: 35px;
+    left: 450px;
+    top: 600px;
+    margin-top: 533px;
+    margin-bottom: 171.31;
+    margin-left: 430px;
+    margin-right: 32.42;
+}
+
+.tool9{
+  display: flex;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 380px;
+  top: 730px;
+  margin-top: 670px;
+  margin-bottom: 171.31;
+  margin-left: 350px;
+  margin-right: 32.42;
+}
+
+.tool10{
+    display: flex;
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 450px;
+    top: 640px;
+    margin-top: 545px;
+    margin-bottom: 171.31px;
+    margin-left: 430px;
+    margin-right: 32.42;
+}
+
+.tool11{
+    display: flex;
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    left: 330px;
+    top: 765px;
+    margin-top: 695px;
+    margin-bottom: 171.31px;
+    margin-left: 290px;
+    margin-right: 32.42;
+}
+
+.header2{
+  display: flex;
+  position: static;
+  width: 327px;
+  height: 150px;
+  left: 24px;
+  top: 114px;
 }
