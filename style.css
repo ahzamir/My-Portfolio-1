@@ -1,0 +1,17 @@
+.logo{
+    height: 90px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.victor{
+    height: 60px;
+    width: 80px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
