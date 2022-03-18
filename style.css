@@ -64,15 +64,15 @@
     height: 45px;
     width: 45px;
 }
-.hands{
+.angles{
     height: 45px;
     width: 45px;
 }
-.tweater{
+.twitter{
     height: 45px;
     width: 45px;
 }
-.M{
+.medium{
     height: 45px;
     width: 45px;
 }
@@ -83,4 +83,18 @@
     justify-content: space-evenly;
     align-items: center;
     margin-left: 80px;
+}
+.stetescope-icone{
+    display: flex;
+    position: absolute;
+    height: 270px;
+    width: 270px;
+    top: 600px;
+    right: 0px;
+}
+.coding-icon{
+    display: flex;
+    position: absolute;
+    width: 10px;
+    height: 10px;
 }
