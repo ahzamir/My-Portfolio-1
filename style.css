@@ -4,3 +4,17 @@
     background-color: #3c3a39;
     height: 125px; 
 }
+
+.logo{
+    height: 130px;
+    width: 130px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.victor{
+    height: 70px;
+    width: 70px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
