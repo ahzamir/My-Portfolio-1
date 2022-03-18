@@ -56,3 +56,31 @@
     margin-left: 60px;
     margin-right: 60px;
 }
+.github{
+    height: 45px;
+    width: 45px;
+}
+.linkedin{
+    height: 45px;
+    width: 45px;
+}
+.hands{
+    height: 45px;
+    width: 45px;
+}
+.tweater{
+    height: 45px;
+    width: 45px;
+}
+.M{
+    height: 45px;
+    width: 45px;
+}
+.social{
+    display: flex;
+    height: 100px;
+    width: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 80px;
+}
