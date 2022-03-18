@@ -18,3 +18,41 @@
     margin-top: 30px;
     margin-right: 50px;
 }
+
+.top {
+    display: flex;
+    flex-direction: column;
+    background-color: #1C1A19;
+    padding: 150px 0 200px 0;
+}
+
+.hfirst{
+    color: #FF6B00;
+    font-size: 150px;
+    font-family: 'Crete Round';
+    font-weight: 400;
+    line-height: 170px;
+    margin-left: 60px;
+
+}
+.hsecond{
+    color: white;
+    display: flex;
+    font-size: 60px;
+    font-style: normal;
+    font-family: 'Roboto';
+    font-weight: 700;
+    line-height: 32px;
+    margin-left: 60px;
+}
+.paragraph{
+    color: white;
+    display: flex;
+    font-size: 30px;
+    line-height: 40px;
+    font-style: normal;
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin-left: 60px;
+    margin-right: 60px;
+}
