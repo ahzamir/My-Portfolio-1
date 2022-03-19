@@ -1,100 +1,82 @@
 .header{
-    display: flex;
-    justify-content: space-between;
-    background-color: #3c3a39;
-    height: 125px; 
+  display: flex;
+  justify-content: space-between;
+  background-color: #3c3a39;
+  height: 125px; 
 }
 
 .logo{
-    height: 130px;
-    width: 130px;
-    margin-left: 20px;
-    margin-top: 5px;
+  height: 130px;
+  width: 130px;
+  margin-left: 20px;
+  margin-top: 5px;
 }
 
 .victor{
-    height: 70px;
-    width: 70px;
-    margin-top: 30px;
-    margin-right: 50px;
+  height: 70px;
+  width: 70px;
+  margin-top: 30px;
+  margin-right: 50px;
 }
 
 .top {
-    display: flex;
-    flex-direction: column;
-    background-color: #1C1A19;
-    padding: 150px 0 200px 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #1C1A19;
+  padding: 150px 0 200px 0;
 }
 
 .hfirst{
-    color: #FF6B00;
-    font-size: 150px;
-    font-family: 'Crete Round';
-    font-weight: 400;
-    line-height: 170px;
-    margin-left: 60px;
+  color: #FF6B00;
+  font-size: 150px;
+  font-family: 'Crete Round';
+  font-weight: 400;
+  line-height: 170px;
+  margin-left: 60px;
+}
 
-}
 .hsecond{
-    color: white;
-    display: flex;
-    font-size: 60px;
-    font-style: normal;
-    font-family: 'Roboto';
-    font-weight: 700;
-    line-height: 32px;
-    margin-left: 60px;
+  color: white;
+  display: flex;
+  font-size: 60px;
+  font-style: normal;
+  font-family: 'Roboto';
+  font-weight: 700;
+  line-height: 32px;
+  margin-left: 60px;
 }
+
 .paragraph{
-    color: white;
-    display: flex;
-    font-size: 30px;
-    line-height: 40px;
-    font-style: normal;
-    font-family: 'Poppins';
-    font-weight: 400;
-    margin-left: 60px;
-    margin-right: 60px;
+  color: white;
+  display: flex;
+  font-size: 30px;
+  line-height: 40px;
+  font-style: normal;
+  font-family: 'Poppins';
+  font-weight: 400;
+  margin-left: 60px;
+  margin-right: 60px;
 }
-.github{
-    height: 45px;
-    width: 45px;
+
+.icon{
+  height: 45px;
+  width: 45px;
 }
-.linkedin{
-    height: 45px;
-    width: 45px;
-}
-.angles{
-    height: 45px;
-    width: 45px;
-}
-.twitter{
-    height: 45px;
-    width: 45px;
-}
-.medium{
-    height: 45px;
-    width: 45px;
-}
+
 .social{
-    display: flex;
-    height: 100px;
-    width: 400px;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-left: 80px;
+  display: flex;
+  height: 100px;
+  width: 400px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 80px;
 }
+
 .stetescope-icone{
-    display: flex;
-    position: absolute;
-    height: 270px;
-    width: 270px;
-    top: 600px;
-    right: 0px;
-}
-.coding-icon{
-    display: flex;
-    position: absolute;
-    width: 10px;
-    height: 10px;
+  display: flex;
+  position: absolute;
+  height: 270px;
+  width: 270px;
+  top: 600px;
+  right: 0px;
 }
