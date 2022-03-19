@@ -1,18 +1,18 @@
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   background-color: #3c3a39;
-  height: 125px; 
+  height: 125px;
 }
 
-.logo{
+.logo {
   height: 130px;
   width: 130px;
   margin-left: 20px;
   margin-top: 5px;
 }
 
-.victor{
+.victor {
   height: 70px;
   width: 70px;
   margin-top: 30px;
@@ -22,20 +22,20 @@
 .top {
   display: flex;
   flex-direction: column;
-  background-color: #1C1A19;
+  background-color: #1c1a19;
   padding: 150px 0 200px 0;
 }
 
-.hfirst{
-  color: #FF6B00;
+.hfirst {
+  color: #ff6b00;
   font-size: 150px;
-  font-family: 'Crete Round';
+  font-family: 'crete round';
   font-weight: 400;
   line-height: 170px;
   margin-left: 60px;
 }
 
-.hsecond{
+.hsecond {
   color: white;
   display: flex;
   font-size: 60px;
@@ -46,7 +46,7 @@
   margin-left: 60px;
 }
 
-.paragraph{
+.paragraph {
   color: white;
   display: flex;
   font-size: 30px;
@@ -58,12 +58,12 @@
   margin-right: 60px;
 }
 
-.icon{
+.icon {
   height: 45px;
   width: 45px;
 }
 
-.social{
+.social {
   display: flex;
   height: 100px;
   width: 400px;
@@ -72,11 +72,11 @@
   margin-left: 80px;
 }
 
-.stetescope-icone{
+.stetescope-icone {
   display: flex;
   position: absolute;
   height: 270px;
   width: 270px;
   top: 600px;
-  right: 0px;
+  right: 1px;
 }
