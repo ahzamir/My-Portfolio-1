@@ -69,6 +69,10 @@
   width: 27px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .social {
   display: flex;
   height: 40px;

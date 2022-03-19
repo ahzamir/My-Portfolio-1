@@ -2,13 +2,14 @@
 
 # My Portfolio
 
-> This is a html page which is contains information about me.
+> This is a html page which is contains all information about me My personal information, contact information, and a screenshot of my project. I have used HTML and CSS for this project and you can use it in your local machin just by cloning this repo.
 
 
 ## Built With
 
 - HTML
 - CSS
+This project built with the help of HTML and CSS you can see and use the cods by cloning this repo on your local machine by Git and GitHub.
 
 ## Getting Started
 
@@ -16,7 +17,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-A browser
+You must have a browser on your device, and clone the repo from GitHub and use it.
 
 ### Usage
 
