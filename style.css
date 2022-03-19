@@ -111,7 +111,7 @@ ul {
   font-size: 40px;
   line-height: 52px;
   font-weight: 400;
-  color:#1c1a19;
+  color: #1c1a19;
   margin: 24px;
   border-bottom: 1px solid #1c1a19;
   padding-bottom: 24px;
@@ -146,11 +146,11 @@ ul {
 }
 
 .cards li {
-border: 1px solid black;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 10px 12px 10px 12px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 12px 10px 12px;
 }
 
 .link-pro {
@@ -161,7 +161,7 @@ padding: 10px 12px 10px 12px;
 }
 
 .see-pro {
-  border: 1px solid #ff6B00;
+  border: 1px solid #ff6b00;
   background: #ff6b00;
   padding: 12px;
 }
@@ -189,7 +189,7 @@ padding: 10px 12px 10px 12px;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .cards-project2 {
@@ -217,7 +217,7 @@ padding: 10px 12px 10px 12px;
 }
 
 .see-project2 {
-  border: 1px solid #ff6B00;
+  border: 1px solid #ff6b00;
   background: #ff6b00;
   padding: 12px;
 }
