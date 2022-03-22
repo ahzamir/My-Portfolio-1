@@ -220,6 +220,7 @@ ul {
   border: 1px solid #ff6b00;
   background: #ff6b00;
   padding: 12px;
+  text-align: center;
 }
 
 .about-me {
@@ -258,4 +259,9 @@ ul {
   width: 100%;
   justify-content: space-between;
   padding-left: 24px;
+}
+
+.victor-about-me {
+  display: flex;
+  right: 0%;
 }
