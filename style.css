@@ -272,7 +272,7 @@ ul {
   padding-right: 24px;
 }
 
-.skills  {
+.skills {
   color: white;
   font-family: 'Inter', sans-serif;
   font-size: 32px;
@@ -299,19 +299,19 @@ ul {
   content: url(images/language.svg);
   display: inline-block;
   width: 1em;
-  margin-left: -1em; 
+  margin-left: -1em;
 }
 
 .frameworks::before {
   content: url(images/framework.svg);
   display: inline-block;
   width: 1em;
-  margin-left: -1em; 
+  margin-left: -1em;
 }
 
 .skill::before {
   content: url(images/skills.svg);
   display: inline-block;
   width: 1em;
-  margin-left: -1em; 
+  margin-left: -1em;
 }
