@@ -293,6 +293,7 @@ ul {
   flex-direction: column;
   align-items: center;
   margin-right: 50%;
+  list-style-type: none;
 }
 
 .language::before {
