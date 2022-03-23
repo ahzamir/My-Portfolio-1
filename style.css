@@ -100,7 +100,7 @@ ul {
 }
 
 .recent-work {
-  display: flex;
+  display: grid;
   flex-direction: column;
   align-items: center;
   padding: 120px 24px 120px 24px;
@@ -166,6 +166,7 @@ ul {
   background: #ff6b00;
   padding: 12px;
   font-family: 'Inter', sans-serif;
+  text-align: center;
 }
 
 .second-project {
@@ -231,6 +232,7 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   background-color: #1c1a19;
+  width: 100%;
 }
 
 .about-me-top {
@@ -262,8 +264,54 @@ ul {
   width: 100%;
   justify-content: space-between;
   padding-left: 24px;
+  border-bottom: 1px solid white;
 }
 
 .victor-about-me {
   display: flex;
+  padding-right: 24px;
+}
+
+.skills  {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50%;
+  margin-top: 70px;
+}
+
+.content {
+  font-size: 18px;
+  line-height: 43px;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50%;
+}
+
+.language::before {
+  content: url(images/language.svg);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em; 
+}
+
+.frameworks::before {
+  content: url(images/framework.svg);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em; 
+}
+
+.skill::before {
+  content: url(images/skills.svg);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em; 
 }
