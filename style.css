@@ -283,6 +283,7 @@ ul {
   align-items: center;
   margin-left: 50%;
   margin-top: 70px;
+  border: 1px solid #1c1a19;
 }
 
 .content {
@@ -294,6 +295,8 @@ ul {
   align-items: center;
   margin-right: 50%;
   list-style-type: none;
+  border: 1px solid #1c1a19;
+  text-align: center;
 }
 
 .language::before {
