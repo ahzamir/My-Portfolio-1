@@ -261,15 +261,17 @@ ul {
 
 .resumi-action {
   display: flex;
-  width: 100%;
-  justify-content: space-between;
   padding-left: 24px;
-  border-bottom: 1px solid white;
 }
 
 .victor-about-me {
   display: flex;
-  padding-right: 24px;
+  position: absolute;
+  right: 2px;
+}
+
+.about-me-bottom {
+  margin-top: 100px;
 }
 
 .skills {
@@ -281,9 +283,9 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 50%;
   margin-top: 70px;
-  border: 1px solid #1c1a19;
+  width: 100%;
+  padding: 120px 24px;
 }
 
 .content {
@@ -293,7 +295,6 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 50%;
   list-style-type: none;
   border: 1px solid #1c1a19;
   text-align: center;
