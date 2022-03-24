@@ -35,7 +35,7 @@ body {
 .hfirst {
   color: #ff6b00;
   font-size: 56px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Crete Round', serif;
   font-weight: 400;
   line-height: 64px;
   left: 24px;
@@ -49,7 +49,7 @@ body {
   display: flex;
   font-size: 24px;
   font-style: normal;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   line-height: 32px;
   left: 24px;
@@ -64,7 +64,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   font-style: normal;
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   top: 295px;
   left: 24px;
@@ -77,6 +77,7 @@ body {
 
 ul {
   list-style-type: none;
+  font-family: 'Inter', sans-serif;
 }
 
 .social {
@@ -96,4 +97,225 @@ ul {
   width: 124px;
   top: 610px;
   right: 2px;
+}
+
+.recent-work {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 24px 120px 24px;
+}
+
+.title-work {
+  display: flex;
+  font-family: 'Crete Round', serif;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 400;
+  color: #1c1a19;
+  margin: 24px;
+  border-bottom: 1px solid #1c1a19;
+  padding-bottom: 24px;
+}
+
+.pro-img {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.stories {
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  align-self: flex-start;
+}
+
+.about-stories {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.cards {
+  display: grid;
+  column-gap: 12px;
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+  padding-inline-start: 0;
+}
+
+.cards li {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 12px 10px 12px;
+}
+
+.link-pro {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  align-self: flex-start;
+}
+
+.see-pro {
+  border: 1px solid #ff6b00;
+  background: #ff6b00;
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.second-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(images/imgbackground.png);
+  padding: 24px;
+  margin-top: 24px;
+}
+
+.project-heading {
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  color: white;
+  align-self: flex-start;
+}
+
+.description {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+}
+
+.cards-project2 {
+  display: grid;
+  column-gap: 12px;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding-inline-start: 0;
+}
+
+.cards-project2 li {
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 12px 10px 12px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+.link-project2 {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  width: 100%;
+}
+
+.see-project2 {
+  border: 1px solid #ff6b00;
+  background: #ff6b00;
+  padding: 12px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #1c1a19;
+  width: 100%;
+}
+
+.about-me-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px 24px 24px;
+}
+
+.about-header {
+  font-family: 'Crete Round', serif;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  font-weight: 400;
+  color: #ff6b00;
+  margin-bottom: 24px;
+}
+
+.description-about-me {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: white;
+}
+
+.resumi-action {
+  display: flex;
+  padding-left: 24px;
+}
+
+.victor-about-me {
+  display: flex;
+  position: absolute;
+  right: 2px;
+}
+
+.about-me-bottom {
+  margin-top: 300px;
+  align-self: center;
+}
+
+.skills {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0%;
+}
+
+.content {
+  font-size: 18px;
+  line-height: 43px;
+  font-weight: 100;
+  list-style-type: none;
+  color: white;
+  padding: 0%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.language::before {
+  content: url(images/language.svg);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.frameworks::before {
+  content: url(images/framework.svg);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.skill::before {
+  content: url(images/skills.svg);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
