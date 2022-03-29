@@ -386,3 +386,12 @@ ul {
   transition: 0.5s;
 }
 
+.social-contact-page {
+  display: flex;
+  height: 40px;
+  width: 200px;
+  justify-content: space-evenly;
+  align-items: center;
+  left: 24px;
+  margin-top: 196px;
+}
