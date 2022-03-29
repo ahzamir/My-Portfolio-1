@@ -320,3 +320,21 @@ ul {
   width: 1em;
   margin-left: -1em;
 }
+
+.contact-page {
+  padding: 120px 24px 2px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-page-head {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: center;
+}
+
