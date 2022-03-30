@@ -424,27 +424,33 @@ ul {
     margin: 16px 142px 16px 0;
     padding: 0;
   }
+  
   .header {
     height: 72px;
     width: 100%;
   }
+
   .logo {
     height: 70px;
     width: 70px;
     margin: 5px 0 5px 142px;
   }
+
   .victor {
     display: none;
   }
+
   .top {
     display: flex;
     flex-direction: row;
     height: 798px;
     padding: 0;
   }
+
   .content-page1 {
     margin: 190px 0 10px 143px;
   }
+
   .hfirst {
     font-size: 72px;
     line-height: 82px;
@@ -452,6 +458,7 @@ ul {
     height: 160px;
     margin: 0 0 24px 0;
   }
+
   .hsecond {
     font-size: 32px;
     font-weight: 500;
@@ -461,6 +468,7 @@ ul {
     font-family: 'Inter', sans-serif;
     margin: 0 0 24px 0;
   }
+
   .paragraph {
     width: 566px;
     height: 123px;
@@ -468,10 +476,12 @@ ul {
     font-size: 20px;
     line-height: 32px;
   }
+
   .icon {
     height: 20px;
     width: 20px;
   }
+
   .social {
     width: 20px;
     height: 200px;
@@ -481,6 +491,7 @@ ul {
     position: absolute;
     margin: 351px 100px 341px 36px;
   }
+
   .stetescope-icone {
     display: flex;
     position: absolute;
@@ -489,6 +500,7 @@ ul {
     top: 250px;
     right: 0;
   }
+
   .title-work {
     border-bottom: none;
     color: #091e42;
@@ -496,6 +508,7 @@ ul {
     padding-bottom: 24px;
     margin: 135px 24px 114px 153px;
   }
+
   .projects {
     margin: 0 143px 130px 140px;
     height: auto;
@@ -504,10 +517,12 @@ ul {
     flex-direction: row;
     align-items: flex-start;
   }
+
   .pro-img {
     width: 684px;
     height: 448px;
   }
+
   .project-1 {
     display: flex;
     flex-direction: column;
@@ -515,6 +530,7 @@ ul {
     height: 348px;
     margin: 0 0 0 24px;
   }
+
   .stories {
     font-weight: 400;
     font-size: 40px;
@@ -522,17 +538,20 @@ ul {
     color: #091e42;
     margin: 0%;
   }
+
   .about-stories {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     color: #091e42;
   }
+
   .cards{
     display: flex;
     color: #091e42;
     border-color: #091e42;
   }
+
   .cards li {
     border: 1px solid rgba(137, 147, 164, 1);
   }
