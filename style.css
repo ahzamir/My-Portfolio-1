@@ -424,7 +424,7 @@ ul {
     margin: 16px 142px 16px 0;
     padding: 0;
   }
-  
+
   .header {
     height: 72px;
     width: 100%;
@@ -504,7 +504,6 @@ ul {
   .title-work {
     border-bottom: none;
     color: #091e42;
-    margin: 24px;
     padding-bottom: 24px;
     margin: 135px 24px 114px 153px;
   }
@@ -546,7 +545,7 @@ ul {
     color: #091e42;
   }
 
-  .cards{
+  .cards {
     display: flex;
     color: #091e42;
     border-color: #091e42;
