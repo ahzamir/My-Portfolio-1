@@ -233,6 +233,7 @@ ul {
   align-items: flex-start;
   background-color: #1c1a19;
   width: 100%;
+  padding-bottom: 130px;
 }
 
 .about-me-top {
@@ -318,4 +319,91 @@ ul {
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+}
+
+.contact-page {
+  padding: 120px 24px 2px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-page-head {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 294px;
+}
+
+.input-list {
+  margin: 0 24px 0 0;
+  padding: 0%;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 0 12px 16px;
+  border: none;
+  border-bottom: 2px #dbd8d7 solid;
+  margin-bottom: 36px;
+}
+
+.textarea {
+  border: none;
+  background: #fbf8f7;
+  height: 114px;
+}
+
+.submit-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  background-color: #ff6b00;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  min-height: 48px;
+  min-width: 131px;
+  display: flex;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 124px;
+}
+
+.button:hover {
+  background-color: #3c3a39;
+  transition: 0.5s;
+}
+
+.social-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px #dfe1e6 solid;
+  margin-top: 196px;
+}
+
+.social-contact-page {
+  display: flex;
+  height: 40px;
+  width: 200px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0%;
 }
