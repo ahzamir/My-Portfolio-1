@@ -17,15 +17,15 @@ body {
 }
 
 .logo {
-  height: 50px;
-  width: 50px;
-  margin: 2px;
+  height: 45px;
+  width: 45px;
+  margin: 5px 0 5px 35px;
 }
 
 .victor {
-  height: 25px;
+  height: 18px;
   width: 30px;
-  margin: 10px;
+  margin: 18px 35px 18px 0;
 }
 
 .top {
@@ -99,9 +99,9 @@ ul {
 .stetescope-icone {
   display: flex;
   position: absolute;
-  height: 124px;
-  width: 124px;
-  top: 610px;
+  height: 150px;
+  width: 150px;
+  top: 560px;
   right: 2px;
 }
 
@@ -480,5 +480,16 @@ ul {
     flex-direction: column;
     position: absolute;
     margin: 351px 100px 341px 36px;
+  }
+}
+
+@media (min-width: 1200px){
+  .stetescope-icone {
+    display: flex;
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    top: 250px;
+    right: 0;
   }
 }
