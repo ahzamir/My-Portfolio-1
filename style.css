@@ -414,7 +414,7 @@ ul {
   padding: 0%;
 }
 
-@media (min-width: 843px) {
+@media (min-width: 1400px) {
   .link-to-pages {
     display: flex;
     width: 310px;
@@ -481,9 +481,6 @@ ul {
     position: absolute;
     margin: 351px 100px 341px 36px;
   }
-}
-
-@media (min-width: 1200px){
   .stetescope-icone {
     display: flex;
     position: absolute;
@@ -491,5 +488,52 @@ ul {
     width: 550px;
     top: 250px;
     right: 0;
+  }
+  .title-work {
+    border-bottom: none;
+    color: #091e42;
+    margin: 24px;
+    padding-bottom: 24px;
+    margin: 135px 24px 114px 153px;
+  }
+  .projects {
+    margin: 0 143px 130px 140px;
+    height: auto;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .pro-img {
+    width: 684px;
+    height: 448px;
+  }
+  .project-1 {
+    display: flex;
+    flex-direction: column;
+    width: 448px;
+    height: 348px;
+    margin: 0 0 0 24px;
+  }
+  .stories {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    margin: 0%;
+  }
+  .about-stories {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #091e42;
+  }
+  .cards{
+    display: flex;
+    color: #091e42;
+    border-color: #091e42;
+  }
+  .cards li {
+    border: 1px solid rgba(137, 147, 164, 1);
   }
 }
