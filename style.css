@@ -12,6 +12,10 @@ body {
   width: 100%;
 }
 
+.link-to-pages {
+  display: none;
+}
+
 .logo {
   height: 50px;
   width: 50px;
@@ -29,7 +33,12 @@ body {
   flex-direction: column;
   align-items: flex-start;
   background-color: #1c1a19;
-  padding: 120px 24px 120px 24px;
+  padding: 0 24px 120px 24px;
+  height: 590px;
+}
+
+.content-page1 {
+  margin: 120px 0 10px 0;
 }
 
 .hfirst {
@@ -38,9 +47,8 @@ body {
   font-family: 'Crete Round', serif;
   font-weight: 400;
   line-height: 64px;
-  left: 24px;
-  top: 120px;
-  width: 290px;
+  margin: 0 0 12px 0;
+  width: 327px;
   height: 124px;
 }
 
@@ -52,8 +60,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   line-height: 32px;
-  left: 24px;
-  top: 256px;
+  margin: 0 0 12px 0;
   width: 290px;
   height: 27px;
 }
@@ -66,8 +73,7 @@ body {
   font-style: normal;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  top: 295px;
-  left: 24px;
+  margin: 0 0 12px 0;
 }
 
 .icon {
@@ -86,8 +92,8 @@ ul {
   width: 200px;
   justify-content: space-evenly;
   align-items: center;
-  left: 24px;
-  top: 430px;
+  margin: 0;
+  padding: 0;
 }
 
 .stetescope-icone {
@@ -406,4 +412,73 @@ ul {
   align-items: center;
   margin-top: 10px;
   padding: 0%;
+}
+
+@media (min-width: 843px) {
+  .link-to-pages {
+    display: flex;
+    width: 310px;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 16px 142px 16px 0;
+    padding: 0;
+  }
+  .header {
+    height: 72px;
+    width: 100%;
+  }
+  .logo {
+    height: 70px;
+    width: 70px;
+    margin: 5px 0 5px 142px;
+  }
+  .victor {
+    display: none;
+  }
+  .top {
+    display: flex;
+    flex-direction: row;
+    height: 798px;
+    padding: 0;
+  }
+  .content-page1 {
+    margin: 190px 0 10px 143px;
+  }
+  .hfirst {
+    font-size: 72px;
+    line-height: 82px;
+    width: 566px;
+    height: 160px;
+    margin: 0 0 24px 0;
+  }
+  .hsecond {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44px;
+    width: 566px;
+    height: 24px;
+    font-family: 'Inter', sans-serif;
+    margin: 0 0 24px 0;
+  }
+  .paragraph {
+    width: 566px;
+    height: 123px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .icon {
+    height: 20px;
+    width: 20px;
+  }
+  .social {
+    width: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: absolute;
+    margin: 351px 100px 341px 36px;
+  }
 }
