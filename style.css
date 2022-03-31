@@ -616,18 +616,26 @@ ul {
 
   .project1 {
     background: url(images/backgroundimg1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .project2 {
     background: url(images/backgroundimg2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .project3 {
     background: url(images/backgroundimg3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .project4 {
     background: url(images/backgroundimg4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .description {
@@ -635,6 +643,8 @@ ul {
     height: 72px;
     font-size: 17px;
     margin-left: 24px;
+    margin-right: 24px;
+    align-self: flex-start;
   }
 
   .project-heading {
