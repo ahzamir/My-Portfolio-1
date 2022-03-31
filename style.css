@@ -529,7 +529,7 @@ ul {
 
   .recent-work {
     padding: 0%;
-    margin:0%;
+    margin: 0%;
     margin: 0 143px 130px 140px;
   }
 
@@ -595,7 +595,7 @@ ul {
     align-items: center;
     width: auto;
     height: 435px;
-    margin: 24px 24px 24px 0px;
+    margin: 24px 24px 24px 0;
     padding: 0%;
   }
 
@@ -649,7 +649,7 @@ ul {
     align-self: flex-start;
     margin-left: 16px;
   }
-  
+
   .about-me {
     width: auto;
     margin-top: 120px;
@@ -662,7 +662,7 @@ ul {
     align-items: flex-start;
     padding: 120px 24px 24px 142px;
   }
-  
+
   .about-header {
     width: 566px;
     height: 78px;
@@ -697,7 +697,7 @@ ul {
     width: 1157px;
     border-top: 1px solid #fff;
   }
-  
+
   .skills {
     color: white;
     font-family: 'Inter', sans-serif;
@@ -705,7 +705,7 @@ ul {
     font-weight: 500;
     margin: 0%;
   }
-  
+
   .content {
     font-size: 18px;
     line-height: 43px;
@@ -714,7 +714,7 @@ ul {
     color: white;
     padding: 0%;
   }
-  
+
   .main-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -736,12 +736,12 @@ ul {
     margin: 130px 140px 0 130px;
     padding: 0%;
   }
-  
+
   .contact-page-head {
     font-size: 40px;
     line-height: 52px;
     color: #262626;
-    text-align:left ;
+    text-align: left;
     width: 455px;
     height: 256px;
   }
