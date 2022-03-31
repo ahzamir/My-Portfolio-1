@@ -193,6 +193,10 @@ ul {
   align-self: flex-start;
 }
 
+.project-desktop {
+  display: none;
+}
+
 .description {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
@@ -414,7 +418,11 @@ ul {
   padding: 0%;
 }
 
-@media (min-width: 1400px) {
+.desktop-projects {
+  display: none;
+}
+
+@media (min-width: 768px) {
   .link-to-pages {
     display: flex;
     width: 310px;
@@ -427,7 +435,7 @@ ul {
 
   .header {
     height: 72px;
-    width: 100%;
+    width: 1500px;
   }
 
   .logo {
@@ -445,6 +453,7 @@ ul {
     flex-direction: row;
     height: 798px;
     padding: 0;
+    width: 1500px;
   }
 
   .content-page1 {
@@ -553,5 +562,86 @@ ul {
 
   .cards li {
     border: 1px solid rgba(137, 147, 164, 1);
+  }
+
+  .mobile-projects {
+    display: none;
+  }
+
+  .desktop-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 140px 0 140px;
+  }
+
+  .second-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 369px;
+    height: 435px;
+    margin: 24px 24px 24px 0px;
+    padding: 0%;
+  }
+
+  .link-project2 {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+  }
+
+  .see-project2 {
+    border: 1px solid #ff6b00;
+    background: #ff6b00;
+    font-family: 'Inter', sans-serif;
+    margin-top: 377px;
+    height: 58px;
+    padding: 0%;
+  }
+
+  .project1 {
+    background: url(images/backgroundimg1.svg);
+  }
+
+  .project2 {
+    background: url(images/backgroundimg2.svg);
+  }
+
+  .project3 {
+    background: url(images/backgroundimg3.svg);
+  }
+
+  .project4 {
+    background: url(images/backgroundimg4.svg);
+  }
+
+  .description {
+    width: 337px;
+    height: 72px;
+    font-size: 17px;
+  }
+
+  .project-heading {
+    margin: 178px 16px 0 16px;
+  }
+
+  .heading3 {
+    margin-top: 221px;
+  }
+
+  .cards-project2 {
+    align-self: flex-start;
+    margin-left: 16px;
+  }
+  
+  .about-me {
+    width: 1500px;
+  }
+  .about-me-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 120px 24px 24px 142px;
+  }
   }
 }
