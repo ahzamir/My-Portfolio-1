@@ -282,6 +282,10 @@ ul {
   right: 2px;
 }
 
+.victor-about-me-desktop {
+  display: none;
+}
+
 .about-me-bottom {
   margin-top: 300px;
   align-self: center;
@@ -302,6 +306,12 @@ ul {
   list-style-type: none;
   color: white;
   padding: 0%;
+}
+
+.main-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .list {
@@ -435,7 +445,7 @@ ul {
 
   .header {
     height: 72px;
-    width: 1500px;
+    width: auto;
   }
 
   .logo {
@@ -453,7 +463,7 @@ ul {
     flex-direction: row;
     height: 798px;
     padding: 0;
-    width: 1500px;
+    width: auto;
   }
 
   .content-page1 {
@@ -505,7 +515,7 @@ ul {
     display: flex;
     position: absolute;
     height: 550px;
-    width: 550px;
+    width: auto;
     top: 250px;
     right: 0;
   }
@@ -514,11 +524,16 @@ ul {
     border-bottom: none;
     color: #091e42;
     padding-bottom: 24px;
-    margin: 135px 24px 114px 153px;
+    margin: 135px 24px 114px 0;
+  }
+
+  .recent-work {
+    padding: 0%;
+    margin:0%;
+    margin: 0 143px 130px 140px;
   }
 
   .projects {
-    margin: 0 143px 130px 140px;
     height: auto;
     margin-bottom: 24px;
     display: flex;
@@ -527,7 +542,7 @@ ul {
   }
 
   .pro-img {
-    width: 684px;
+    width: auto;
     height: 448px;
   }
 
@@ -571,14 +586,14 @@ ul {
   .desktop-projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 0 140px 0 140px;
+    width: auto;
   }
 
   .second-project {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 369px;
+    width: auto;
     height: 435px;
     margin: 24px 24px 24px 0px;
     padding: 0%;
@@ -619,6 +634,7 @@ ul {
     width: 337px;
     height: 72px;
     font-size: 17px;
+    margin-left: 24px;
   }
 
   .project-heading {
@@ -635,13 +651,81 @@ ul {
   }
   
   .about-me {
-    width: 1500px;
+    width: auto;
+    margin-top: 120px;
+    background-color: rgba(38, 38, 38, 1);
   }
+
   .about-me-top {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 120px 24px 24px 142px;
   }
+  
+  .about-header {
+    width: 566px;
+    height: 78px;
+  }
+
+  .description-about-me {
+    font-size: 20px;
+    line-height: 32px;
+    width: 556px;
+    height: 148px;
+  }
+
+  .resumi-action {
+    display: flex;
+    padding-left: 142px;
+  }
+
+  .victor-about-me {
+    display: none;
+  }
+
+  .victor-about-me-desktop {
+    display: flex;
+    position: absolute;
+    right: 2px;
+    width: auto;
+  }
+
+  .about-me-bottom {
+    margin-top: 147px;
+    align-self: center;
+    width: 1157px;
+    border-top: 1px solid #fff;
+  }
+  
+  .skills {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0%;
+  }
+  
+  .content {
+    font-size: 18px;
+    line-height: 43px;
+    font-weight: 100;
+    list-style-type: none;
+    color: white;
+    padding: 0%;
+  }
+  
+  .main-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 138px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
