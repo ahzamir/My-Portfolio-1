@@ -176,8 +176,8 @@ ul {
 }
 
 .see-pro:hover {
-background-color: #ffbc00;
-transition: 0.5s;
+  background-color: #ffbc00;
+  transition: 0.5s;
 }
 
 .second-project {
@@ -243,8 +243,8 @@ transition: 0.5s;
 }
 
 .see-project2:hover {
-background-color: #ffbc00;
-transition: 0.5s;
+  background-color: #ffbc00;
+  transition: 0.5s;
 }
 
 .about-me {
@@ -609,6 +609,24 @@ transition: 0.5s;
     padding: 0%;
   }
 
+  .description {
+    width: 337px;
+    height: 72px;
+    font-size: 17px;
+    margin-left: 24px;
+    margin-right: 24px;
+    align-self: flex-start;
+  }
+
+  .project-heading {
+    margin: 178px 16px 0 16px;
+  }
+
+  .cards-project2 {
+    align-self: flex-start;
+    margin-left: 16px;
+  }
+
   .second-project:hover .cards-project2 {
     display: none;
   }
@@ -620,10 +638,11 @@ transition: 0.5s;
   .second-project:hover .description {
     display: none;
   }
-  
+
   .second-project:hover .see-project2 {
     display: block;
   }
+
   .second-project:hover {
     background: url(images/backgroundimg1.svg);
     background-repeat: no-repeat;
@@ -651,29 +670,11 @@ transition: 0.5s;
   .project-back {
     background-repeat: no-repeat;
     background-size: cover;
-    background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%),url(images/backgroundimg1.svg);
-  }
-
-  .description {
-    width: 337px;
-    height: 72px;
-    font-size: 17px;
-    margin-left: 24px;
-    margin-right: 24px;
-    align-self: flex-start;
-  }
-
-  .project-heading {
-    margin: 178px 16px 0 16px;
+    background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(images/backgroundimg1.svg);
   }
 
   .heading3 {
     margin-top: 221px;
-  }
-
-  .cards-project2 {
-    align-self: flex-start;
-    margin-left: 16px;
   }
 
   .about-me {
