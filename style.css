@@ -12,16 +12,20 @@ body {
   width: 100%;
 }
 
+.link-to-pages {
+  display: none;
+}
+
 .logo {
-  height: 50px;
-  width: 50px;
-  margin: 2px;
+  height: 45px;
+  width: 45px;
+  margin: 5px 0 5px 35px;
 }
 
 .victor {
-  height: 25px;
+  height: 18px;
   width: 30px;
-  margin: 10px;
+  margin: 18px 35px 18px 0;
 }
 
 .top {
@@ -29,7 +33,12 @@ body {
   flex-direction: column;
   align-items: flex-start;
   background-color: #1c1a19;
-  padding: 120px 24px 120px 24px;
+  padding: 0 24px 120px 24px;
+  height: 590px;
+}
+
+.content-page1 {
+  margin: 120px 0 10px 0;
 }
 
 .hfirst {
@@ -38,9 +47,8 @@ body {
   font-family: 'Crete Round', serif;
   font-weight: 400;
   line-height: 64px;
-  left: 24px;
-  top: 120px;
-  width: 290px;
+  margin: 0 0 12px 0;
+  width: 327px;
   height: 124px;
 }
 
@@ -52,8 +60,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   line-height: 32px;
-  left: 24px;
-  top: 256px;
+  margin: 0 0 12px 0;
   width: 290px;
   height: 27px;
 }
@@ -66,8 +73,7 @@ body {
   font-style: normal;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  top: 295px;
-  left: 24px;
+  margin: 0 0 12px 0;
 }
 
 .icon {
@@ -86,16 +92,16 @@ ul {
   width: 200px;
   justify-content: space-evenly;
   align-items: center;
-  left: 24px;
-  top: 430px;
+  margin: 0;
+  padding: 0;
 }
 
 .stetescope-icone {
   display: flex;
   position: absolute;
-  height: 124px;
-  width: 124px;
-  top: 610px;
+  height: 150px;
+  width: 150px;
+  top: 560px;
   right: 2px;
 }
 
@@ -169,6 +175,11 @@ ul {
   text-align: center;
 }
 
+.see-pro:hover {
+  background-color: #ffbc00;
+  transition: 0.5s;
+}
+
 .second-project {
   display: flex;
   flex-direction: column;
@@ -185,6 +196,10 @@ ul {
   line-height: 44px;
   color: white;
   align-self: flex-start;
+}
+
+.project-desktop {
+  display: none;
 }
 
 .description {
@@ -225,6 +240,11 @@ ul {
   padding: 12px;
   text-align: center;
   font-family: 'Inter', sans-serif;
+}
+
+.see-project2:hover {
+  background-color: #ffbc00;
+  transition: 0.5s;
 }
 
 .about-me {
@@ -272,6 +292,10 @@ ul {
   right: 2px;
 }
 
+.victor-about-me-desktop {
+  display: none;
+}
+
 .about-me-bottom {
   margin-top: 300px;
   align-self: center;
@@ -292,6 +316,12 @@ ul {
   list-style-type: none;
   color: white;
   padding: 0%;
+}
+
+.main-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .list {
@@ -386,7 +416,7 @@ ul {
 }
 
 .button:hover {
-  background-color: #3c3a39;
+  background-color: #ffbc00;
   transition: 0.5s;
 }
 
@@ -406,4 +436,344 @@ ul {
   align-items: center;
   margin-top: 10px;
   padding: 0%;
+}
+
+.desktop-projects {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .link-to-pages {
+    display: flex;
+    width: 310px;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 16px 142px 16px 0;
+    padding: 0;
+  }
+
+  .header {
+    height: 72px;
+    width: auto;
+  }
+
+  .logo {
+    height: 70px;
+    width: 70px;
+    margin: 5px 0 5px 142px;
+  }
+
+  .victor {
+    display: none;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: row;
+    height: 798px;
+    padding: 0;
+    width: auto;
+  }
+
+  .content-page1 {
+    margin: 190px 0 10px 143px;
+  }
+
+  .hfirst {
+    font-size: 72px;
+    line-height: 82px;
+    width: 566px;
+    height: 160px;
+    margin: 0 0 24px 0;
+  }
+
+  .hsecond {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44px;
+    width: 566px;
+    height: 24px;
+    font-family: 'Inter', sans-serif;
+    margin: 0 0 24px 0;
+  }
+
+  .paragraph {
+    width: 566px;
+    height: 123px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .icon {
+    height: 20px;
+    width: 20px;
+  }
+
+  .social {
+    width: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: absolute;
+    margin: 351px 100px 341px 36px;
+  }
+
+  .stetescope-icone {
+    display: flex;
+    position: absolute;
+    height: 550px;
+    width: auto;
+    top: 250px;
+    right: 0;
+  }
+
+  .title-work {
+    border-bottom: none;
+    color: #091e42;
+    padding-bottom: 24px;
+    margin: 135px 24px 114px 0;
+  }
+
+  .recent-work {
+    padding: 0%;
+    margin: 0%;
+    margin: 0 143px 130px 140px;
+  }
+
+  .projects {
+    height: auto;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .pro-img {
+    width: auto;
+    height: 448px;
+  }
+
+  .project-1 {
+    display: flex;
+    flex-direction: column;
+    width: 448px;
+    height: 348px;
+    margin: 0 0 0 24px;
+  }
+
+  .stories {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    margin: 0%;
+  }
+
+  .about-stories {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #091e42;
+  }
+
+  .cards {
+    display: flex;
+    color: #091e42;
+    border-color: #091e42;
+  }
+
+  .cards li {
+    border: 1px solid rgba(137, 147, 164, 1);
+  }
+
+  .mobile-projects {
+    display: none;
+  }
+
+  .desktop-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  }
+
+  .second-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 435px;
+    margin: 24px 24px 24px 0;
+    padding: 0%;
+  }
+
+  .description {
+    width: 337px;
+    height: 72px;
+    font-size: 17px;
+    margin-left: 24px;
+    margin-right: 24px;
+    align-self: flex-start;
+  }
+
+  .project-heading {
+    margin: 178px 16px 0 16px;
+  }
+
+  .cards-project2 {
+    align-self: flex-start;
+    margin-left: 16px;
+  }
+
+  .link-project2 {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .see-project2 {
+    display: none;
+    border: 1px solid #ff6b00;
+    background: #ff6b00;
+    font-family: 'Inter', sans-serif;
+    margin-top: 377px;
+    height: 40px;
+    padding: 0%;
+    padding-top: 17px;
+  }
+
+  .second-project:hover .cards-project2 {
+    display: none;
+  }
+
+  .second-project:hover .project-heading {
+    display: none;
+  }
+
+  .second-project:hover .description {
+    display: none;
+  }
+
+  .second-project:hover .see-project2 {
+    display: block;
+  }
+
+  .second-project:hover {
+    background: url(images/backgroundimg1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .project-back {
+    background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(images/backgroundimg1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .heading3 {
+    margin-top: 221px;
+  }
+
+  .about-me {
+    width: auto;
+    margin-top: 120px;
+    background-color: rgba(38, 38, 38, 1);
+  }
+
+  .about-me-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 120px 24px 24px 142px;
+  }
+
+  .about-header {
+    width: 566px;
+    height: 78px;
+  }
+
+  .description-about-me {
+    font-size: 20px;
+    line-height: 32px;
+    width: 556px;
+    height: 148px;
+  }
+
+  .resumi-action {
+    display: flex;
+    padding-left: 142px;
+  }
+
+  .victor-about-me {
+    display: none;
+  }
+
+  .victor-about-me-desktop {
+    display: flex;
+    position: absolute;
+    right: 2px;
+    width: auto;
+  }
+
+  .about-me-bottom {
+    margin-top: 147px;
+    align-self: center;
+    width: 1157px;
+    border-top: 1px solid #fff;
+  }
+
+  .skills {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0%;
+  }
+
+  .content {
+    font-size: 18px;
+    line-height: 43px;
+    font-weight: 100;
+    list-style-type: none;
+    color: white;
+    padding: 0%;
+  }
+
+  .main-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 138px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 130px 140px 0 130px;
+    padding: 0%;
+  }
+
+  .contact-page-head {
+    font-size: 40px;
+    line-height: 52px;
+    color: #262626;
+    text-align: left;
+    width: 455px;
+    height: 256px;
+  }
+
+  .button {
+    align-self: flex-start;
+  }
 }
