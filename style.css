@@ -175,6 +175,11 @@ ul {
   text-align: center;
 }
 
+.see-pro:hover {
+background-color: #269c8d;
+transition: 0.5s;
+}
+
 .second-project {
   display: flex;
   flex-direction: column;
@@ -235,6 +240,11 @@ ul {
   padding: 12px;
   text-align: center;
   font-family: 'Inter', sans-serif;
+}
+
+.see-project2:hover {
+background-color: #269c8d;
+transition: 0.5s;
 }
 
 .about-me {
@@ -406,7 +416,7 @@ ul {
 }
 
 .button:hover {
-  background-color: #3c3a39;
+  background-color: #269c8d;
   transition: 0.5s;
 }
 
@@ -599,43 +609,49 @@ ul {
     padding: 0%;
   }
 
-  .link-project2 {
-    text-decoration: none;
-    color: white;
-    font-size: 17px;
+  .second-project:hover .cards-project2 {
+    display: none;
   }
 
-  .see-project2 {
-    border: 1px solid #ff6b00;
-    background: #ff6b00;
-    font-family: 'Inter', sans-serif;
-    margin-top: 377px;
-    height: 58px;
-    padding: 0%;
+  .second-project:hover .project-heading {
+    display: none;
   }
 
-  .project1 {
+  .second-project:hover .description {
+    display: none;
+  }
+  
+  .second-project:hover .see-project2 {
+    display: block;
+  }
+  .second-project:hover {
     background: url(images/backgroundimg1.svg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
-  .project2 {
-    background: url(images/backgroundimg2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  .link-project2 {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-align: center;
   }
 
-  .project3 {
-    background: url(images/backgroundimg3.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  .see-project2 {
+    display: none;
+    border: 1px solid #ff6b00;
+    background: #ff6b00;
+    font-family: 'Inter', sans-serif;
+    margin-top: 377px;
+    height: 40px;
+    padding: 0%;
+    padding-top: 17px;
   }
 
-  .project4 {
-    background: url(images/backgroundimg4.svg);
+  .project-back {
     background-repeat: no-repeat;
     background-size: cover;
+    background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%),url(images/backgroundimg1.svg);
   }
 
   .description {
