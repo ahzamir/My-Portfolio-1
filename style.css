@@ -627,6 +627,24 @@ ul {
     margin-left: 16px;
   }
 
+  .link-project2 {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .see-project2 {
+    display: none;
+    border: 1px solid #ff6b00;
+    background: #ff6b00;
+    font-family: 'Inter', sans-serif;
+    margin-top: 377px;
+    height: 40px;
+    padding: 0%;
+    padding-top: 17px;
+  }
+
   .second-project:hover .cards-project2 {
     display: none;
   }
@@ -649,28 +667,10 @@ ul {
     background-size: cover;
   }
 
-  .link-project2 {
-    text-decoration: none;
-    color: white;
-    font-size: 17px;
-    text-align: center;
-  }
-
-  .see-project2 {
-    display: none;
-    border: 1px solid #ff6b00;
-    background: #ff6b00;
-    font-family: 'Inter', sans-serif;
-    margin-top: 377px;
-    height: 40px;
-    padding: 0%;
-    padding-top: 17px;
-  }
-
   .project-back {
+    background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(images/backgroundimg1.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(images/backgroundimg1.svg);
   }
 
   .heading3 {
