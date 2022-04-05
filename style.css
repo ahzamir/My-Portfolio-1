@@ -168,15 +168,15 @@ ul {
 }
 
 .see-pro {
-  border: 1px solid #ff6b00;
-  background: #ff6b00;
+  border: 1px solid #c25100;
+  background: #c25100;
   padding: 12px;
   font-family: 'Inter', sans-serif;
   text-align: center;
 }
 
 .see-pro:hover {
-  background-color: #ffbc00;
+  background-color: #ff6d05;
   transition: 0.5s;
 }
 
@@ -235,15 +235,15 @@ ul {
 }
 
 .see-project2 {
-  border: 1px solid #ff6b00;
-  background: #ff6b00;
+  border: 1px solid #c25100;
+  background: #c25100;
   padding: 12px;
   text-align: center;
   font-family: 'Inter', sans-serif;
 }
 
 .see-project2:hover {
-  background-color: #ffbc00;
+  background-color: #ff6d05;
   transition: 0.5s;
 }
 
@@ -401,7 +401,7 @@ ul {
 }
 
 .button {
-  background-color: #ff6b00;
+  background-color: #c25100;
   color: #fff;
   border: none;
   padding: 15px;
@@ -416,7 +416,7 @@ ul {
 }
 
 .button:hover {
-  background-color: #ffbc00;
+  background-color: #ff6d05;
   transition: 0.5s;
 }
 
@@ -636,8 +636,8 @@ ul {
 
   .see-project2 {
     display: none;
-    border: 1px solid #ff6b00;
-    background: #ff6b00;
+    border: 1px solid #c25100;
+    background: #c25100;
     font-family: 'Inter', sans-serif;
     margin-top: 377px;
     height: 40px;

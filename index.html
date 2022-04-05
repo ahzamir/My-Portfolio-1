@@ -18,7 +18,7 @@
 
 <body>
   <header class="header">
-    <a href="#"><img class="logo" alt="logo" src="images/zheaderlogo.png"></a>
+    <a href="#"><img class="logo" alt="logo of the page" src="images/zheaderlogo.png"></a>
     <nav><img class="victor" alt="minue" src="images/Union.svg"></nav>
     <div class="link-to-pages">
       <a href="#"><img src="images/portoflio.svg" alt="portfolio"></a>
@@ -47,12 +47,12 @@
               src="images/twitter.svg"></a></li>
         <li><a href="#" target="blank"><img class="icon" alt="medium" src="images/medium.svg"></a></li>
       </ul>
-      <img class="stetescope-icone" alt="stetescope" src="images/design.svg">
+      <img class="stetescope-icone" alt="" src="images/design.svg">
     </section>
     <section class="recent-work">
       <h2 class="title-work">My Recent Work</h2>
       <div class="projects">
-        <img class="pro-img" alt="project image" src="images/Imgplaceholder.png">
+        <img class="pro-img" alt="project view" src="images/Imgplaceholder.png">
         <div class="project-1">
           <h2 class="stories">Multi-Post Stories</h2>
           <p class="about-stories">A daily selection of privately personalized reads; no accounts or sign-ups required.
@@ -316,13 +316,19 @@
       <form class="inputs" action="https://formspree.io/f/xayvdjzb" method="post">
         <ul class="input-list">
           <li>
-            <input class="input" type="text" maxlength="30" name="full-name" placeholder="Full name" required>
+            <label>
+              <input class="input" type="text" maxlength="30" name="full-name" placeholder="Full name" required>
+            </label>
           </li>
           <li>
-            <input class="input" type="email" name="email-address" placeholder="Email address" required>
+            <label>
+              <input class="input" type="email" name="email-address" placeholder="Email address" required>
+            </label>
           </li>
           <li>
-            <textarea class="input textarea" placeholder="Enter text here" maxlength="500" required></textarea>
+            <label>
+              <textarea class="input textarea" placeholder="Enter text here" maxlength="500" required></textarea>
+            </label>
           </li>
           <li class="submit-button">
             <button class="button" type="submit" name="submit" value="send">Get in touch</button>
