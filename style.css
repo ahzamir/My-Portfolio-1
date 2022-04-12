@@ -777,3 +777,49 @@ ul {
     align-self: flex-start;
   }
 }
+
+.mobile-menu {
+  max-height: 812px;
+  background-color: #3c3a39;
+  margin-top: -15px;
+  display: none;
+}
+
+.mobile-menu-ul {
+  list-style-type: none;
+}
+
+.mobile-menu-li-1 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  padding: 24px 108px 15px 40px;
+  color: #fff5e1;
+}
+
+.mobile-menu-li-2 {
+  border: 1px solid #6f6c6b;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.close {
+  padding: 40px 24px 12px 325px;
+  text-align: right;
+}
+
+.bottom-menu {
+  background-color: white;
+  margin-top: 479px;
+  padding-top: 40px;
+  padding-bottom: 8px;
+}
+
+.separator-menu {
+  margin: 44px 120px 8px 120px;
+  border: 5px solid #0d151e;
+  border-radius: 5px;
+}
