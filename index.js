@@ -2,7 +2,8 @@ window.addEventListener('DOMContentLoaded', () => {
     document.getElementById('hamberger').addEventListener('click', displayContent);
     document.querySelector('.close').addEventListener('click', closeMenu);
     document.querySelector('.portfolio').addEventListener('click', portfolioSection);
-
+    document.querySelector('.about').addEventListener('click', aboutSection);
+    document.querySelector('.contact').addEventListener('click', contactSection);
 });
 function displayContent() {
     document.querySelector('main').style.display = 'none';
@@ -20,4 +21,12 @@ function closeMenu() {
 function portfolioSection() {
     closeMenu();
     window.location = `${window.location.pathname}#portfolio`;
-  }
+}
+function aboutSection() {
+    closeMenu();
+    window.location = `${window.location.pathname}#about`;
+}
+function contactSection() {
+    closeMenu();
+    window.location = `${window.location.pathname}#contact`;
+}
