@@ -10,7 +10,6 @@ function displayContent() {
   document.querySelector('header').style.display = 'none';
   document.querySelector('footer').style.display = 'none';
   document.querySelector('.mobile-menu').style.display = 'block';
-
 }
 function closeMenu() {
   document.querySelector('main').style.display = 'block';
