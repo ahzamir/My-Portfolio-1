@@ -10,6 +10,7 @@ body {
   background-color: #3c3a39;
   height: 55px;
   width: 100%;
+  position: fixed;
 }
 
 .link-to-pages {
@@ -47,7 +48,7 @@ body {
   font-family: 'Crete Round', serif;
   font-weight: 400;
   line-height: 64px;
-  margin: 0 0 12px 0;
+  margin: 120px 0 12px 0;
   width: 327px;
   height: 124px;
 }
@@ -779,14 +780,16 @@ ul {
 }
 
 .mobile-menu {
-  max-height: 812px;
+  height: 896px;
   background-color: #3c3a39;
   margin-top: -15px;
+  padding: 10px 24px 0 24px;
   display: none;
 }
 
 .mobile-menu-ul {
   list-style-type: none;
+  padding-left: 0;
 }
 
 .mobile-menu-li-1 {
@@ -807,19 +810,6 @@ ul {
 }
 
 .close {
-  padding: 40px 24px 12px 325px;
+  padding: 60px 24px 12px 325px;
   text-align: right;
-}
-
-.bottom-menu {
-  background-color: white;
-  margin-top: 479px;
-  padding-top: 40px;
-  padding-bottom: 8px;
-}
-
-.separator-menu {
-  margin: 44px 120px 8px 120px;
-  border: 5px solid #0d151e;
-  border-radius: 5px;
 }
