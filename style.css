@@ -10,6 +10,7 @@ body {
   background-color: #3c3a39;
   height: 55px;
   width: 100%;
+  position: fixed;
 }
 
 .link-to-pages {
@@ -47,7 +48,7 @@ body {
   font-family: 'Crete Round', serif;
   font-weight: 400;
   line-height: 64px;
-  margin: 0 0 12px 0;
+  margin: 120px 0 12px 0;
   width: 327px;
   height: 124px;
 }
@@ -776,4 +777,39 @@ ul {
   .button {
     align-self: flex-start;
   }
+}
+
+.mobile-menu {
+  height: 896px;
+  background-color: #3c3a39;
+  margin-top: -15px;
+  padding: 10px 24px 0 24px;
+  display: none;
+}
+
+.mobile-menu-ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.mobile-menu-li-1 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  padding: 24px 108px 15px 40px;
+  color: #fff5e1;
+}
+
+.mobile-menu-li-2 {
+  border: 1px solid #6f6c6b;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.close {
+  padding: 60px 24px 12px 325px;
+  text-align: right;
 }
