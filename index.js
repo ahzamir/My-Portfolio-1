@@ -22,10 +22,56 @@ function contactSection() {
   closeMenu();
   window.location = `${window.location.pathname}#contact`;
 }
+const projects = [{
+  name: 'Profesional Art',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard',
+},
+{
+  name: 'Profesional Art',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard',
+},
+{
+  name: 'Profesional Art',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard',
+},
+{
+  name: 'Profesional Art',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard',
+},
+{
+  name: 'Profesional Art',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard',
+},
+{
+  name: 'Profesional Art',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard',
+}];
+function displayProjects() {
+  const projectPart = document.getElementById('cards');
+  const cards = document.createElement('div');
+  projects.forEach(project => {
+    const card = `<div class="mobile-projects">
+    <div class="second-project">
+      <h2 class="project-heading">${project.name}</h2>
+      <p class="description">${project.description}</p>
+      <ul class="cards-project2">
+        <li>html</li>
+        <li>bootstrap</li>
+        <li>Ruby</li>
+      </ul>
+    </div>
+    <a class="link-project2" href="#">
+      <div class="see-project2">See Project</div>
+    </a>`;
+    cards.insertAdjacentHTML("beforeend", card);
+  });
+  projectPart.appendChild(cards);
+}
 window.addEventListener('DOMContentLoaded', () => {
   document.getElementById('hamberger').addEventListener('click', displayContent);
   document.querySelector('.close').addEventListener('click', closeMenu);
   document.querySelector('.portfolio').addEventListener('click', portfolioSection);
   document.querySelector('.about').addEventListener('click', aboutSection);
   document.querySelector('.contact').addEventListener('click', contactSection);
+  displayProjects();
 });
