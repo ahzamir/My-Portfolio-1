@@ -25,36 +25,35 @@ function contactSection() {
 const projects = [{
   name: 'Profesional Art  Printing Data ',
   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard',
-  Image: "images/snapshoot-portfolio.svg",
-  languages: []
+  Image: 'images/snapshoot-portfolio.svg',
 },
 {
   name: 'Data Dashboard Healthcare ',
   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard',
-  Image: "images/snapshoot-portfolio.svg"
+  Image: 'images/snapshoot-portfolio.svg',
 },
 {
   name: 'Website Protfolio ',
   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard',
-  Image: "images/snapshoot-portfolio.svg"
+  Image: 'images/snapshoot-portfolio.svg',
 },
 {
   name: 'Profesional Art  Printing Data ',
   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard',
-  Image: "images/snapshoot-portfolio.svg"
+  Image: 'images/snapshoot-portfolio.svg',
 },
 {
   name: 'Data Dashboard Healthcare ',
   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard',
-  Image: "images/snapshoot-portfolio.svg"
+  Image: 'images/snapshoot-portfolio.svg',
 },
 {
   name: 'Website Protfolio 6',
   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard',
-  Image: "images/snapshoot-portfolio.svg"
+  Image: 'images/snapshoot-portfolio.svg',
 }];
 function openProject(event) {
-  const id = event.target.id;
+  const {id} = event.target;
   const project = projects[id];
   document.getElementById('exampleModalLabel').innerHTML = project.name;
   document.getElementById('pro-description').innerHTML = project.description;
@@ -83,7 +82,7 @@ function displayProjects() {
     </a>
     `;
     cards.insertAdjacentHTML('beforeend', card);
-    id++;
+    id += 1;
   });
   projectPart.appendChild(cards);
 }
@@ -97,5 +96,5 @@ window.addEventListener('DOMContentLoaded', () => {
   const projectLinks = document.querySelectorAll('.link-project2');
   projectLinks.forEach((projectLink) => {
     projectLink.addEventListener('click', openProject);
-  })
+  });
 });
