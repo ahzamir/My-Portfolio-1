@@ -29,13 +29,13 @@ body {
   margin: 18px 35px 18px 0;
 }
 
-.top {
+.top-css {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   background-color: #1c1a19;
   padding: 0 24px 120px 24px;
-  height: 590px;
+  height: 720px;
 }
 
 .content-page1 {
@@ -168,6 +168,10 @@ ul {
   align-self: flex-start;
 }
 
+.link-pro:hover {
+  color: white;
+}
+
 .see-pro {
   border: 1px solid #c25100;
   background: #c25100;
@@ -197,10 +201,6 @@ ul {
   line-height: 44px;
   color: white;
   align-self: flex-start;
-}
-
-.project-desktop {
-  display: none;
 }
 
 .description {
@@ -233,6 +233,14 @@ ul {
   color: white;
   font-size: 17px;
   width: 100%;
+}
+
+.link-project2:hover {
+  color: white;
+}
+
+.link-project2-desktop {
+  display: none;
 }
 
 .see-project2 {
@@ -369,7 +377,7 @@ ul {
   text-align: center;
 }
 
-.inputs {
+.inputs-css {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -381,7 +389,7 @@ ul {
   padding: 0%;
 }
 
-.input {
+.input-css {
   width: 100%;
   padding: 12px 0 12px 16px;
   border: none;
@@ -443,6 +451,146 @@ ul {
   display: none;
 }
 
+.mobile-menu {
+  height: 896px;
+  background-color: #3c3a39;
+  margin-top: -15px;
+  padding: 10px 24px 0 24px;
+  display: none;
+}
+
+.mobile-menu-ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.mobile-menu-li-1 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  padding: 24px 108px 15px 40px;
+  color: #fff5e1;
+}
+
+.mobile-menu-li-2 {
+  border: 1px solid #6f6c6b;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.close-css {
+  padding: 60px 24px 12px 325px;
+  text-align: right;
+}
+
+.mobile-pop-up {
+  background-color: #fff;
+  width: 80%;
+  height: auto;
+  padding: 16px 16px 20px 16px;
+}
+
+.pop-up-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-right: 16px;
+  height: 82px;
+}
+
+.pop-up-h1 {
+  width: 259px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 0;
+}
+
+.close-icon-2 {
+  margin-right: 14px;
+  width: 24px;
+  height: 24px;
+  margin-top: 5px;
+}
+
+.pop-up-languages {
+  display: flex;
+  gap: 12px;
+  padding-left: 0;
+}
+
+.pop-up-language-li {
+  border: 1px solid #979493;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3c3a39;
+  padding: 12px;
+}
+
+.pop-up-image {
+  width: 100%;
+  margin: 24px auto;
+}
+
+.pop-up-description {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.pop-up-buttons {
+  display: flex;
+  margin-top: 12px;
+  justify-content: left;
+  gap: 19px;
+  width: 100%;
+  padding: 0;
+}
+
+.btn-css {
+  background-color: #c25100;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px;
+}
+
+.pop-up-btn1 {
+  width: 134px;
+}
+
+.pop-up-btn2 {
+  width: 159px;
+}
+
+.pop-up-btn1::after {
+  content: url(images/seeliveicon.svg);
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.pop-up-btn2::after {
+  content: url(images/githubicone2.svg);
+  padding-left: 15px;
+  display: inline-block;
+}
+
 @media (min-width: 768px) {
   .link-to-pages {
     display: flex;
@@ -456,7 +604,7 @@ ul {
 
   .header {
     height: 72px;
-    width: auto;
+    width: 100%;
   }
 
   .logo {
@@ -469,12 +617,12 @@ ul {
     display: none;
   }
 
-  .top {
+  .top-css {
     display: flex;
     flex-direction: row;
     height: 798px;
     padding: 0;
-    width: auto;
+    width: 100%;
   }
 
   .content-page1 {
@@ -524,6 +672,7 @@ ul {
 
   .stetescope-icone {
     display: flex;
+    opacity: 60%;
     position: absolute;
     height: 550px;
     width: auto;
@@ -590,11 +739,7 @@ ul {
     border: 1px solid rgba(137, 147, 164, 1);
   }
 
-  .mobile-projects {
-    display: none;
-  }
-
-  .desktop-projects {
+  .cards-pro {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
@@ -629,10 +774,15 @@ ul {
   }
 
   .link-project2 {
+    display: block;
     text-decoration: none;
     color: white;
     font-size: 17px;
     text-align: center;
+  }
+
+  .link-project2-mobile {
+    display: none;
   }
 
   .see-project2 {
@@ -641,7 +791,7 @@ ul {
     background: #c25100;
     font-family: 'Inter', sans-serif;
     margin-top: 377px;
-    height: 40px;
+    height: 60px;
     padding: 0%;
     padding-top: 17px;
   }
@@ -717,6 +867,7 @@ ul {
     position: absolute;
     right: 2px;
     width: auto;
+    opacity: 60%;
   }
 
   .about-me-bottom {
@@ -777,39 +928,59 @@ ul {
   .button {
     align-self: flex-start;
   }
-}
 
-.mobile-menu {
-  height: 896px;
-  background-color: #3c3a39;
-  margin-top: -15px;
-  padding: 10px 24px 0 24px;
-  display: none;
-}
+  .pop-up-desktop-1 {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    gap: 25px;
+    margin-top: 50px;
+  }
 
-.mobile-menu-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
+  .pop-up-desktop-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
-.mobile-menu-li-1 {
-  font-family: "Inter", sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0;
-  text-align: left;
-  padding: 24px 108px 15px 40px;
-  color: #fff5e1;
-}
+  .pop-up-image {
+    margin-top: 0;
+    margin-bottom: 15px;
+    height: 100%;
+  }
 
-.mobile-menu-li-2 {
-  border: 1px solid #6f6c6b;
-  margin-left: 24px;
-  margin-right: 24px;
-}
+  .mobile-pop-up {
+    padding: 24px;
+    border: 2px solid black;
+  }
 
-.close {
-  padding: 60px 24px 12px 325px;
-  text-align: right;
+  .pop-up-h1 {
+    font-family: 'Crete Round', serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #172b4d;
+  }
+
+  .pop-up-top {
+    height: auto;
+  }
+
+  .pop-up-languages {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #3c3a39;
+  }
+
+  .pop-up-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+  }
 }
