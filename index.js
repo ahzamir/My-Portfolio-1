@@ -23,27 +23,27 @@ function contactSection() {
   window.location = `${window.location.pathname}#contact`;
 }
 const projects = [{
-  name: 'Profesional Art',
+  name: 'Profesional Art  Printing Data',
   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard',
 },
 {
-  name: 'Profesional Art',
+  name: 'Data Dashboard Healthcare',
   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard',
 },
 {
-  name: 'Profesional Art',
+  name: 'Website Protfolio',
   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard',
 },
 {
-  name: 'Profesional Art',
+  name: 'Profesional Art  Printing Data',
   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard',
 },
 {
-  name: 'Profesional Art',
+  name: 'Data Dashboard Healthcare',
   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard',
 },
 {
-  name: 'Profesional Art',
+  name: 'Website Protfolio',
   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard',
 }];
 function displayProjects() {
