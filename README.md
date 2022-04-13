@@ -7,7 +7,7 @@
 
 ## 🖥️ Live Demo
 
-[My Portfolio](https://ahzamir.github.io/My-Portfolio-1/)
+[My Portfolio](https://github.com/ahzamir/My-Portfolio-1)
 
 
 ## Built With
