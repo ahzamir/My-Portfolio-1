@@ -50,7 +50,7 @@ function displayProjects() {
   const projectPart = document.getElementById('cards');
   const cards = document.createElement('div');
   cards.classList.add('cards-pro');
-  projects.forEach(project => {
+  projects.forEach((project) => {
     const card = `<div class="second-project project-back">
       <h2 class="project-heading">${project.name}</h2>
       <p class="description">${project.description}</p>
@@ -59,17 +59,18 @@ function displayProjects() {
         <li>bootstrap</li>
         <li>Ruby</li>
       </ul>
-    <a class="link-project2 link-project2-desktop" href="#">
+    <a class="link-project2 link-project2-desktop" type="button" data-toggle="modal" data-target="#exampleModal">
       <div class="see-project2">See Project</div>
     </a>
     </div>
-    <a class="link-project2 link-project2-mobile" href="#">
+    <a class="link-project2 link-project2-mobile" type="button" data-toggle="modal" data-target="#exampleModal">
     <div class="see-project2">See Project</div>
     </a>
     `;
-    cards.insertAdjacentHTML("beforeend", card);
+    cards.insertAdjacentHTML('beforeend', card);
   });
   projectPart.appendChild(cards);
+  
 }
 window.addEventListener('DOMContentLoaded', () => {
   document.getElementById('hamberger').addEventListener('click', displayContent);
