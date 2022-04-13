@@ -53,7 +53,7 @@ const projects = [{
   Image: 'images/snapshoot-portfolio.svg',
 }];
 function openProject(event) {
-  const {id} = event.target;
+  const { id } = event.target;
   const project = projects[id];
   document.getElementById('exampleModalLabel').innerHTML = project.name;
   document.getElementById('pro-description').innerHTML = project.description;
