@@ -49,9 +49,9 @@ const projects = [{
 function displayProjects() {
   const projectPart = document.getElementById('cards');
   const cards = document.createElement('div');
+  cards.classList.add('cards-pro');
   projects.forEach(project => {
-    const card = `<div class="mobile-projects">
-    <div class="second-project">
+    const card = `<div class="second-project project-back">
       <h2 class="project-heading">${project.name}</h2>
       <p class="description">${project.description}</p>
       <ul class="cards-project2">
@@ -59,10 +59,14 @@ function displayProjects() {
         <li>bootstrap</li>
         <li>Ruby</li>
       </ul>
-    </div>
-    <a class="link-project2" href="#">
+    <a class="link-project2 link-project2-desktop" href="#">
       <div class="see-project2">See Project</div>
-    </a>`;
+    </a>
+    </div>
+    <a class="link-project2 link-project2-mobile" href="#">
+    <div class="see-project2">See Project</div>
+    </a>
+    `;
     cards.insertAdjacentHTML("beforeend", card);
   });
   projectPart.appendChild(cards);

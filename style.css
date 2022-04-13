@@ -199,10 +199,6 @@ ul {
   align-self: flex-start;
 }
 
-.project-desktop {
-  display: none;
-}
-
 .description {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
@@ -233,6 +229,10 @@ ul {
   color: white;
   font-size: 17px;
   width: 100%;
+}
+
+.link-project2-desktop{
+display: none;
 }
 
 .see-project2 {
@@ -444,9 +444,7 @@ ul {
 }
 
 .mobile-pop-up {
-  padding: 16px 16px 20px 16px;
-  border: 2px solid black;
-  margin: 60px 16px 211px 16px;
+  margin: 16px 16px 20px 16px;
 }
 
 .pop-up-top {
@@ -510,7 +508,7 @@ ul {
 .pop-up-buttons {
   display: flex;
   margin-top: 12px;
-  max-width: 311px;
+  width: 311px;
   justify-content: left;
   gap: 19px;
   width: 100%;
@@ -520,7 +518,7 @@ ul {
 .btn {
   background-color: #c25100;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter',sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -695,12 +693,8 @@ ul {
   .cards li {
     border: 1px solid rgba(137, 147, 164, 1);
   }
-
-  .mobile-projects {
-    display: none;
-  }
-
-  .desktop-projects {
+  
+  .cards-pro {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
@@ -735,14 +729,19 @@ ul {
   }
 
   .link-project2 {
+    display: block;
     text-decoration: none;
     color: white;
     font-size: 17px;
     text-align: center;
   }
 
+  .link-project2-mobile{
+    display:none;
+  }
+
   .see-project2 {
-    display: none;
+    display:none;
     border: 1px solid #c25100;
     background: #c25100;
     font-family: 'Inter', sans-serif;
@@ -919,65 +918,4 @@ ul {
 .close {
   padding: 60px 24px 12px 325px;
   text-align: right;
-}
-
-@media (min-width: 768px) {
-  .pop-up-desktop-1 {
-    display: grid;
-    grid-template-columns: 1.6fr 1fr;
-    gap: 25px;
-    margin-top: 50px;
-  }
-
-  .pop-up-desktop-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .pop-up-image {
-    margin-top: 0;
-    margin-bottom: 15px;
-    height: 100%;
-  }
-
-  .mobile-pop-up {
-    margin: 112px 142px 142px 142px;
-    padding: 24px;
-    border: 2px solid black;
-  }
-
-  .pop-up-h1 {
-    font-family: 'Crete Round', serif;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 44px;
-    letter-spacing: 0;
-    text-align: left;
-    color: #172b4d;
-  }
-
-  .pop-up-top {
-    height: auto;
-  }
-
-  .pop-up-languages {
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 0;
-    text-align: left;
-    color: #3c3a39;
-  }
-
-  .pop-up-description {
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0;
-    text-align: left;
-    color: #344563;
-  }
 }
