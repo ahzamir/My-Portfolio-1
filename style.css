@@ -443,6 +443,109 @@ ul {
   display: none;
 }
 
+.mobile-pop-up {
+  margin: 16px 16px 20px 16px;
+}
+
+.pop-up-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-right: 16px;
+  height: 82px;
+}
+
+.pop-up-h1 {
+  width: 259px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 0;
+}
+
+.close-icon-2 {
+  margin-right: 14px;
+  width: 24px;
+  height: 24px;
+  margin-top: 5px;
+}
+
+.pop-up-languages {
+  display: flex;
+  gap: 12px;
+  padding-left: 0;
+}
+
+.pop-up-language-li {
+  border: 1px solid #979493;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3c3a39;
+  padding: 12px;
+}
+
+.pop-up-image {
+  width: 100%;
+  margin: 24px auto;
+}
+
+.pop-up-description {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.pop-up-buttons {
+  display: flex;
+  margin-top: 12px;
+  width: 311px;
+  justify-content: left;
+  gap: 19px;
+  width: 100%;
+  padding: 0;
+}
+
+.btn {
+  background-color: #c25100;
+  color: #fff;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px;
+}
+
+.pop-up-btn1 {
+  width: 134px;
+}
+
+.pop-up-btn2 {
+  width: 159px;
+}
+
+.pop-up-btn1::after {
+  content: url(images/seeliveicon.svg);
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.pop-up-btn2::after {
+  content: url(images/githubicone2.svg);
+  padding-left: 15px;
+  display: inline-block;
+}
+
 @media (min-width: 768px) {
   .link-to-pages {
     display: flex;
@@ -456,7 +559,7 @@ ul {
 
   .header {
     height: 72px;
-    width: auto;
+    width: 100%;
   }
 
   .logo {
@@ -474,7 +577,7 @@ ul {
     flex-direction: row;
     height: 798px;
     padding: 0;
-    width: auto;
+    width: 100%;
   }
 
   .content-page1 {
@@ -524,6 +627,7 @@ ul {
 
   .stetescope-icone {
     display: flex;
+    opacity: 60%;
     position: absolute;
     height: 550px;
     width: auto;
@@ -717,6 +821,7 @@ ul {
     position: absolute;
     right: 2px;
     width: auto;
+    opacity: 60%;
   }
 
   .about-me-bottom {
