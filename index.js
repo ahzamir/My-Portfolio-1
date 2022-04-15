@@ -116,6 +116,19 @@ function checkData(event) {
     form.submit();
   }
 }
+function setData(event) {
+  const inputName = event.target.id;
+  const { value } = document.getElementById(inputName);
+  localStorage.setItem(inputName, value);
+}
+function getData() {
+  let localData = localStorage.getItem('name');
+  document.getElementById('name').value = localData;
+  localData = localStorage.getItem('email');
+  document.getElementById('email').value = localData;
+  localData = localStorage.getItem('textarea');
+  document.getElementById('textarea').value = localData;
+}
 
 window.addEventListener('DOMContentLoaded', () => {
   document.getElementById('hamberger').addEventListener('click', displayContent);
@@ -124,6 +137,10 @@ window.addEventListener('DOMContentLoaded', () => {
   document.querySelector('.about').addEventListener('click', aboutSection);
   document.querySelector('.contact').addEventListener('click', contactSection);
   document.getElementById('submit-btn').addEventListener('click', checkData);
+  document.getElementById('name').addEventListener('focusout', setData);
+  document.getElementById('email').addEventListener('focusout', setData);
+  document.getElementById('textarea').addEventListener('focusout', setData);
+  getData();
   displayProjects();
   const projectLinks = document.querySelectorAll('.link-project2');
   projectLinks.forEach((projectLink) => {
