@@ -93,9 +93,10 @@ function checkData(event) {
   const msg1 = document.getElementById('msg-1');
   const msg2 = document.getElementById('msg-2');
   const msg = document.getElementById('msg');
-  let name = document.getElementById('name').value;
-  let mail = document.getElementById('email').value;
-  let regx = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  const name = document.getElementById('name').value;
+  const mail = document.getElementById('email').value;
+  // eslint-disable-next-line no-useless-escape
+  const regx = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   let validate = true;
   msg.innerHTML = '';
   msg1.innerHTML = '';
@@ -107,8 +108,7 @@ function checkData(event) {
   if (mail === ('')) {
     msg2.innerHTML = warningMessage;
     validate = false;
-  }
-  else if (!regx.test(mail) || mail !== mail.toLowerCase()) {
+  } else if (!regx.test(mail) || mail !== mail.toLowerCase()) {
     msg.innerHTML = '*please enter a correct email-address format';
     validate = false;
   }
@@ -129,4 +129,4 @@ window.addEventListener('DOMContentLoaded', () => {
   projectLinks.forEach((projectLink) => {
     projectLink.addEventListener('click', openProject);
   });
-})
+});
