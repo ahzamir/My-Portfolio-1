@@ -144,20 +144,22 @@
         <h2 class="contact-page-head">I'm always interested in hearing about new projects, so if you'd like to chat
           please get in touch.</h2>
       </div>
-      <form class="inputs-css" action="https://formspree.io/f/xayvdjzb" method="post">
+      <form class="inputs-css" id="form" action="https://formspree.io/f/xayvdjzb" method="post">
         <ul class="input-list w-100">
           <li>
-            <label for="full-name" class="w-100">
-              <input id="full-name" class="input-css" type="text" maxlength="30" name="full-name"
+            <label for="name" class="w-100">
+              <input id="name" class="input-css" type="text" maxlength="30" name="name"
                 placeholder="Full name" required>
             </label>
           </li>
+          <small id="msg-1" class="msg"></small>
           <li class="w-100">
-            <label for="email-address" class="w-100">
-              <input id="email-address" class="input-css" type="email" name="email-address" placeholder="Email address"
+            <label for="email" class="w-100">
+              <input id="email" class="input-css" type="text" name="email" placeholder="Email address"
                 required>
             </label>
           </li>
+          <small id="msg-2" class="msg"></small>
           <li>
             <label for="textarea" class="w-100">
               <textarea id="textarea" class="input-css textarea w-100" placeholder="Enter text here" maxlength="500"
@@ -165,7 +167,8 @@
             </label>
           </li>
           <li class="submit-button">
-            <button id="button" class="button" type="submit" name="submit" value="send">Get in touch</button>
+            <button id="submit-btn" class="button" type="submit" value="send">Get in touch</button>
+            <small id="msg" class="msg"></small>
           </li>
         </ul>
       </form>

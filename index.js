@@ -86,15 +86,47 @@ function displayProjects() {
   });
   projectPart.appendChild(cards);
 }
+function checkData(event) {
+  event.preventDefault();
+  const form = document.forms[0];
+  const warningMessage = '*please fill out this part first';
+  const msg1 = document.getElementById('msg-1');
+  const msg2 = document.getElementById('msg-2');
+  const msg = document.getElementById('msg');
+  let name = document.getElementById('name').value;
+  let mail = document.getElementById('email').value;
+  let regx = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  let validate = true;
+  msg.innerHTML = '';
+  msg1.innerHTML = '';
+  msg2.innerHTML = '';
+  if (name === ('')) {
+    msg1.innerHTML = warningMessage;
+    validate = false;
+  }
+  if (mail === ('')) {
+    msg2.innerHTML = warningMessage;
+    validate = false;
+  }
+  else if (!regx.test(mail) || mail !== mail.toLowerCase()) {
+    msg.innerHTML = '*please enter a correct email-address format';
+    validate = false;
+  }
+  if (validate) {
+    form.submit();
+  }
+}
+
 window.addEventListener('DOMContentLoaded', () => {
   document.getElementById('hamberger').addEventListener('click', displayContent);
   document.querySelector('.close').addEventListener('click', closeMenu);
   document.querySelector('.portfolio').addEventListener('click', portfolioSection);
   document.querySelector('.about').addEventListener('click', aboutSection);
   document.querySelector('.contact').addEventListener('click', contactSection);
+  document.getElementById('submit-btn').addEventListener('click', checkData);
   displayProjects();
   const projectLinks = document.querySelectorAll('.link-project2');
   projectLinks.forEach((projectLink) => {
     projectLink.addEventListener('click', openProject);
   });
-});
+})
